@@ -1,0 +1,226 @@
+* {
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px; 
+  }
+
+.image-header {
+    background-image: url("./background-header.png");
+    height: 250px; 
+}
+
+header {
+    position: relative; 
+}
+
+.header {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 20px;
+    position: absolute;
+    top: 5px; 
+    width: 1300px; 
+    height: 50px;
+}
+
+.div-ul ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 350px;  
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.log-in-sign-up {
+    width: 150px;
+    display: flex;
+    align-items:flex-start; 
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    gap: 5px; 
+   
+}
+
+.Log-in {
+    border-radius: 15px;
+    height: 32px; 
+    width: 80px;
+    color: black;  
+    border: none; 
+}
+
+.Sign-Up {
+    border-radius: 15px;
+    width: 80px; 
+    height: 32px; 
+    background-color: blue;
+    color: white; 
+    border: none; 
+}
+
+.behance-logo {
+    height: 20px; 
+}
+
+.adobe-logo {
+    height: 100px; 
+}
+
+.search-bar {
+    border-radius: 10px; 
+    border: transparent; 
+    height: 30px;
+    width: 350px; 
+    color: white; 
+    margin-right: 15px;
+    padding: 20px; 
+}
+
+.aside {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    border: 1px solid grey;
+    height: 1500px; 
+    width: 400px; 
+    margin-left: 30px;
+    position: absolute; 
+    top: 150px; 
+    background-color: white;
+}
+
+.wolf-image {
+    height: 100px; 
+    width: 100px; 
+    border-radius: 50%; 
+    border: solid 10px white; 
+    align-items: center;
+}
+
+.wolf-image-container {
+    align-self: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+
+.bio-buttons {
+    height: 300px; 
+    width: 400px; 
+}
+
+div h4 {
+    font-size: 20px;
+    margin: 3px;
+    text-align: center;
+}
+
+div p {
+    font-size: 10px;
+    font-family: sans-serif;
+    color: grey; 
+    text-align: center;
+}
+
+.follow {
+    background-color: blue;
+    border-radius: 15px; 
+    height: 40px; 
+    width: 250px; 
+    border: none; 
+    color: white; 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.message {
+    background-color: white;
+    border-radius: 15px; 
+    height: 40px; 
+    width: 250px; 
+    border: solid 1px grey; 
+    color: blue; 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.follow-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px; 
+}
+
+.stats {
+    list-style: none;
+}
+
+.stats-numbers {
+    list-style: none;
+}
+
+.stats-stats-numbers {
+    display: flex;
+}
+
+.facebook-btn {
+    background-color: white;
+    border-radius: 15px; 
+    height: 40px; 
+    width: 250px; 
+    border: 0.1px solid grey; 
+    color: black; 
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.links-btn {
+    height: 40px; 
+    width: 300px; 
+}
+
+
+.bio-buttons {
+    height: 400px; 
+    width: 300px; 
+    background-color: blue;
+    margin-top: 30px; 
+    padding-top: 30px; 
+}
+
+.aside-2 {
+    width: 300px; 
+    height: 988px; 
+    background-color: pink;
+    display: flex;
+
+}
+
+.about {
+    padding-left: 20px; 
+    padding-right: 20px;
+    text-align: left;
+}
+
+.aside-images {
+    display: grid;
+}
+
+.images img {
+    height: 260px; 
+    width: 260px; 
+}
+
+.images {
+    position: absolute; 
+    top: 350px; 
+    left: 460px; 
+}
